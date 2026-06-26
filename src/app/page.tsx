@@ -368,28 +368,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ═══════════════ CONFIANÇA ═══════════════ */}
-        <section className="px-margin-page py-16 border-b border-grid-line bg-surface-container-lowest">
-          <div className="mb-10">
-            <span className="font-label-technical text-technical-cyan block mb-4">{t.clients.header}</span>
-            <p className="font-label-technical text-muted-gray uppercase tracking-widest">{t.clients.title}</p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-            {["Ajuntament de Barcelona", "Fundació Miró", "Televisió de Catalunya", "Acció Cultural"].map((name) => (
-              <div key={name} className="border border-grid-line p-6 flex items-center justify-center h-20">
-                <span className="font-label-technical text-[10px] text-muted-gray uppercase text-center">{name}</span>
-              </div>
-            ))}
-          </div>
-          <blockquote className="border-l-2 border-technical-cyan pl-6 max-w-2xl">
-            <p className="font-body-md text-on-surface-variant italic">
-              &ldquo;{t.clients.testimonial}&rdquo;
-            </p>
-            <cite className="font-label-technical text-[10px] text-muted-gray mt-3 block not-italic uppercase">
-              {t.clients.cite}
-            </cite>
-          </blockquote>
-        </section>
 
         {/* ═══════════════ CONTACTE ═══════════════ */}
         <section className="px-margin-page py-24 border-b border-grid-line" id="contacte">

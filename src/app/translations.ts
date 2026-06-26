@@ -93,7 +93,7 @@ export const translations = {
             }
         },
         footer: {
-            legal: ["Avís Legal", "Privacitat", "Cookies", "Presskit"],
+            legal: ["Avís Legal", "Privacitat", "Cookies"],
             rights: "© 2026 VandeCul CINEMA STUDIO. TOTS ELS DRETS RESERVATS.",
             legalModal: {
                 title: "AVÍS LEGAL",
@@ -232,7 +232,7 @@ export const translations = {
             }
         },
         footer: {
-            legal: ["Aviso Legal", "Privacidad", "Cookies", "Presskit"],
+            legal: ["Aviso Legal", "Privacidad", "Cookies"],
             rights: "© 2026 VandeCul CINEMA STUDIO. TODOS LOS DERECHOS RESERVADOS.",
             legalModal: {
                 title: "AVISO LEGAL",
@@ -371,7 +371,7 @@ export const translations = {
             }
         },
         footer: {
-            legal: ["Legal Notice", "Privacy", "Cookies", "Presskit"],
+            legal: ["Legal Notice", "Privacy", "Cookies"],
             rights: "© 2026 VandeCul CINEMA STUDIO. ALL RIGHTS RESERVED.",
             legalModal: {
                 title: "LEGAL NOTICE",
