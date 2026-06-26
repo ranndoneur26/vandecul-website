@@ -105,6 +105,21 @@ export const translations = {
                     "Aquest Avís Legal es regeix per la legislació espanyola. Per a qualsevol controvèrsia que pogués derivar-se de l’accés o ús del web, les parts se sotmeten als jutjats i tribunals que corresponguin d’acord amb la normativa aplicable."
                 ],
                 close: "Tancar"
+            },
+            privacyModal: {
+                title: "POLÍTICA DE PRIVACITAT",
+                content: [
+                    "En compliment del Reglament (UE) 2016/679, de 27 d’abril de 2016, General de Protecció de Dades (RGPD), i de la Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals, s’informa de la present política de privacitat.",
+                    "1. Responsable del tractament\nResponsable: VandeCul\nNIF: 52172995W\nAdreça: C/ Calabria 164\nCorreu electrònic: vandecul.produccions@gmail.com\nLloc web: VandeCul.cat",
+                    "2. Finalitat del tractament\nLes dades personals recollides a través d’aquest lloc web seran tractades amb les finalitats següents:\n- Atendre consultes i sol·licituds rebudes mitjançant els formularis de contacte.\n- Gestionar la relació comercial o professional amb les persones usuàries.\n- Enviar comunicacions informatives o comercials, quan hi hagi consentiment previ.\n- Complir amb les obligacions legals aplicables.",
+                    "3. Legitimació\nLa base legal per al tractament de les dades és:\n- El consentiment de la persona interessada.\n- L’execució d’un contracte o l’aplicació de mesures precontractuals.\n- El compliment d’obligacions legals.\n- L’interès legítim, quan sigui procedent.",
+                    "4. Conservació de les dades\nLes dades es conservaran durant el temps necessari per complir la finalitat per a la qual van ser recollides i, posteriorment, durant els terminis legalment establerts. Un cop transcorreguts aquests terminis, es suprimiran amb mesures de seguretat adequades.",
+                    "5. Destinataris\nLes dades no se cediran a tercers, excepte obligació legal o quan sigui necessari per a la prestació d’un servei vinculat al responsable del tractament. En aquests casos, només s’encarregaran del tractament aquells tercers que ofereixin garanties adequades de conformitat amb la normativa vigent.",
+                    "6. Drets de les persones usuàries\nLa persona usuària pot exercir en qualsevol moment els drets d’accés, rectificació, supressió, oposició, limitació del tractament i portabilitat de les dades, així com retirar el consentiment atorgat, mitjançant escrit adreçat a vandecul.produccions@gmail.com, adjuntant còpia d’un document acreditatiu de la identitat.\nAixí mateix, si considera que el tractament de les seves dades no s’ajusta a la normativa, pot presentar una reclamació davant l’Autoritat Catalana de Protecció de Dades o davant l’Agència Espanyola de Protecció de Dades, segons correspongui.",
+                    "7. Mesures de seguretat\nEl responsable del tractament adopta les mesures tècniques i organitzatives necessàries per garantir la seguretat, integritat i confidencialitat de les dades personals, i per evitar-ne la pèrdua, alteració o accés no autoritzat.",
+                    "8. Canvis en la política de privacitat\nAquesta política de privacitat podrà ser actualitzada en qualsevol moment per adaptar-la a modificacions legals o tècniques. Es recomana revisar-la periòdicament."
+                ],
+                close: "Tancar"
             }
         }
     },
@@ -212,6 +227,21 @@ export const translations = {
                     "Este Aviso Legal se rige por la legislación española. Para cualquier controversia que pudiera derivarse del acceso o uso de la web, las partes se someten a los juzgados y tribunales que correspondan de acuerdo con la normativa aplicable."
                 ],
                 close: "Cerrar"
+            },
+            privacyModal: {
+                title: "POLÍTICA DE PRIVACIDAD",
+                content: [
+                    "En cumplimiento del Reglamento (UE) 2016/679, de 27 de abril de 2016, General de Protección de Datos (RGPD), y de la Ley Orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales, se informa de la presente política de privacidad.",
+                    "1. Responsable del tratamiento\nResponsable: VandeCul\nNIF: 52172995W\nDirección: C/ Calabria 164\nCorreo electrónico: vandecul.produccions@gmail.com\nSitio web: VandeCul.cat",
+                    "2. Finalidad del tratamiento\nLos datos personales recogidos a través de este sitio web serán tratados con las siguientes finalidades:\n- Atender consultas y solicitudes recibidas mediante los formularios de contacto.\n- Gestionar la relación comercial o profesional con las personas usuarias.\n- Enviar comunicaciones informativas o comerciales, cuando haya consentimiento previo.\n- Cumplir con las obligaciones legales aplicables.",
+                    "3. Legitimación\nLa base legal para el tratamiento de los datos es:\n- El consentimiento de la persona interesada.\n- La ejecución de un contrato o la aplicación de medidas precontractuantes.\n- El cumplimiento de obligaciones legales.\n- El interés legítimo, cuando sea procedente.",
+                    "4. Conservación de los datos\nLos datos se conservarán durante el tiempo necesario para cumplir la finalidad para la que fueron recogidos y, posteriormente, durante los plazos legalmente establecidos. Una vez transcurridos estos plazos, se suprimirán con medidas de seguridad adecuadas.",
+                    "5. Destinatarios\nLos datos no se cederán a terceros, excepto obligación legal o cuando sea necesario para la prestación de un servicio vinculado al responsable del tratamiento. En estos casos, solo se encargarán del tratamiento aquellos terceros que ofrezcan garantías adecuadas de conformidad con la normativa vigente.",
+                    "6. Derechos de las personas usuarias\nLa persona usuaria puede ejercer en cualquier momento los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad de los datos, así como retirar el consentimiento otorgado, mediante escrito dirigido a vandecul.produccions@gmail.com, adjuntando copia de un documento acreditativo de la identidad.\nAsimismo, si considera que el tratamiento de sus datos no se ajusta a la normativa, puede presentar una reclamación ante la Autoridad Catalana de Protección de Datos o ante la Agencia Española de Protección de Datos, según corresponda.",
+                    "7. Mecanismos de seguridad\nEl responsable del tratamiento adopta las medidas técnicas y organizativas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos personales, y para evitar su pérdida, alteración o acceso no autorizado.",
+                    "8. Cambios en la política de privacidad\nEsta política de privacidad podrá ser actualizada en cualquier momento para adaptarla a modificaciones legales o técnicas. Se recomienda revisarla periódicamente."
+                ],
+                close: "Cerrar"
             }
         }
     },
@@ -317,6 +347,21 @@ export const translations = {
                     "All content on this website, including texts, images, designs, logos, files, and any other material, is protected by the intellectual and industrial property rights of the owner or authorized third parties. Any reproduction, distribution, public communication, or total or partial transformation without the owner's prior written authorization is prohibited.",
                     "The owner is not responsible for damages or losses resulting from the improper use of the website, nor for the content of third parties accessible through external links. Likewise, the owner reserves the right to modify the information on the website at any time and without prior notice, as well as its configuration or presentation.",
                     "This Legal Notice is governed by Spanish law. For any controversy that may arise from access to or use of the website, the parties submit to the courts and tribunals that correspond according to the applicable regulations."
+                ],
+                close: "Close"
+            },
+            privacyModal: {
+                title: "PRIVACY POLICY",
+                content: [
+                    "In compliance with Regulation (EU) 2016/679, of April 27, 2016, General Data Protection Regulation (GDPR), and Organic Law 3/2018, of December 5, on the protection of personal data and guarantee of digital rights, this privacy policy is provided.",
+                    "1. Data Controller\nResponsible: VandeCul\nTax ID: 52172995W\nAddress: C/ Calabria 164\nEmail: vandecul.produccions@gmail.com\nWebsite: VandeCul.cat",
+                    "2. Purpose of processing\nPersonal data collected through this website will be processed for the following purposes:\n- Addressing inquiries and requests received through contact forms.\n- Managing the commercial or professional relationship with users.\n- Sending informative or commercial communications, when prior consent has been given.\n- Complying with applicable legal obligations.",
+                    "3. Legitimation\nThe legal basis for data processing is:\n- The consent of the data subject.\n- The execution of a contract or the application of pre-contractual measures.\n- Compliance with legal obligations.\n- Legitimate interest, where applicable.",
+                    "4. Data retention\nData will be kept for the time necessary to fulfill the purpose for which it was collected and, subsequently, during the legally established periods. After these periods, it will be deleted with appropriate security measures.",
+                    "5. Recipients\nData will not be transferred to third parties, except for legal obligations or when necessary for the provision of a service linked to the data controller. In these cases, only those third parties offering adequate guarantees in accordance with current regulations will be in charge of processing.",
+                    "6. User rights\nThe user can exercise at any time the rights of access, rectification, deletion, opposition, limitation of processing, and data portability, as well as withdraw the consent granted, by writing to vandecul.produccions@gmail.com, attaching a copy of an identity document.\nLikewise, if you consider that the processing of your data does not comply with the regulations, you can file a complaint with the Catalan Data Protection Authority or the Spanish Data Protection Agency, as appropriate.",
+                    "7. Security measures\nThe data controller adopts the necessary technical and organizational measures to guarantee the security, integrity, and confidentiality of personal data, and to prevent its loss, alteration, or unauthorized access.",
+                    "8. Changes to the privacy policy\nThis privacy policy may be updated at any time to adapt it to legal or technical modifications. It is recommended to review it periodically."
                 ],
                 close: "Close"
             }

@@ -12,6 +12,7 @@ export default function Home() {
   const [showPhone, setShowPhone] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [isLegalModalOpen, setIsLegalModalOpen] = useState(false);
+  const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
 
   const t = translations[lang];
 
@@ -579,7 +580,13 @@ export default function Home() {
               >
                 {t.footer.legal[0]}
               </button>
-              {t.footer.legal.slice(1).map((link, idx) => (
+              <button
+                onClick={() => setIsPrivacyModalOpen(true)}
+                className="font-label-technical text-muted-gray hover:text-primary transition-colors hover:opacity-50 duration-300 cursor-pointer"
+              >
+                {t.footer.legal[1]}
+              </button>
+              {t.footer.legal.slice(2).map((link, idx) => (
                 <a key={idx} className="font-label-technical text-muted-gray hover:text-primary transition-colors hover:opacity-50 duration-300" href="#">{link}</a>
               ))}
             </nav>
@@ -620,6 +627,43 @@ export default function Home() {
                 className="bg-primary text-background px-6 py-3 font-label-technical text-[12px] uppercase hover:bg-technical-cyan transition-colors cursor-pointer"
               >
                 {t.footer.legalModal.close}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ═══════════════ MODAL POLÍTICA DE PRIVACITAT ═══════════════ */}
+      {isPrivacyModalOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10">
+          <div
+            className="absolute inset-0 bg-background/80 backdrop-blur-xl"
+            onClick={() => setIsPrivacyModalOpen(false)}
+          ></div>
+          <div className="relative bg-surface-container border border-grid-line w-full max-w-4xl max-h-[80vh] overflow-hidden flex flex-col shadow-2xl animate-fade-in">
+            {/* Header Modal */}
+            <div className="p-6 border-b border-grid-line flex justify-between items-center bg-surface-container-highest">
+              <h3 className="font-headline-lg text-[20px] tracking-tight">{t.footer.privacyModal.title}</h3>
+              <button
+                onClick={() => setIsPrivacyModalOpen(false)}
+                className="material-symbols-outlined text-muted-gray hover:text-primary transition-colors cursor-pointer"
+              >
+                close
+              </button>
+            </div>
+            {/* Content Modal */}
+            <div className="p-8 md:p-12 overflow-y-auto font-body-md text-on-surface-variant text-sm md:text-base leading-relaxed space-y-6 scrollbar-hide">
+              {t.footer.privacyModal.content.map((p, idx) => (
+                <div key={idx} className="whitespace-pre-line">{p}</div>
+              ))}
+            </div>
+            {/* Footer Modal */}
+            <div className="p-6 border-t border-grid-line flex justify-end bg-surface-container-lowest">
+              <button
+                onClick={() => setIsPrivacyModalOpen(false)}
+                className="bg-primary text-background px-6 py-3 font-label-technical text-[12px] uppercase hover:bg-technical-cyan transition-colors cursor-pointer"
+              >
+                {t.footer.privacyModal.close}
               </button>
             </div>
           </div>
