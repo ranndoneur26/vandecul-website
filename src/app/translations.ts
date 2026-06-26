@@ -94,7 +94,18 @@ export const translations = {
         },
         footer: {
             legal: ["Avís Legal", "Privacitat", "Cookies", "Presskit"],
-            rights: "© 2026 VandeCul CINEMA STUDIO. TOTS ELS DRETS RESERVATS."
+            rights: "© 2026 VandeCul CINEMA STUDIO. TOTS ELS DRETS RESERVATS.",
+            legalModal: {
+                title: "AVÍS LEGAL",
+                content: [
+                    "En compliment del deure d’informació establert per la normativa aplicable, s’informa que el present lloc web és titularitat de Marc Xicola amb domicili a C/ Calabria 164, NIF/52172995W, i correu electrònic de contacte VandeCul.produccions@gmail.com.",
+                    "L’accés i l’ús d’aquest lloc web atribueixen la condició de persona usuària, i impliquen l’acceptació plena i sense reserves de les condicions recollides en aquest Avís Legal. La persona usuària es compromet a fer un ús adequat dels continguts i serveis que el titular ofereix a través del web i a no emprar-los per desenvolupar activitats il·lícites o contràries a la bona fe i a l’ordre públic.",
+                    "Tots els continguts d’aquest lloc web, incloent-hi textos, imatges, dissenys, logotips, arxius i qualezvol altre material, estan protegits pels drets de propietat intel·lectual i industrial del titular o de tercers autoritzats. Queda prohibida la reproducció, distribució, comunicació pública o transformació total o parcial sense l’autorització prèvia i per escrit del titular.",
+                    "El titular no es fa responsable dels danys o perjudicis derivats de l’ús indegut del lloc web, ni dels continguts de tercers als quals es pugui accedir mitjançant enllaços externs. Així mateix, es reserva el dret de modificar en qualsevol moment i sense avís previ la informació continguda al web, així com la seva configuració o presentació.",
+                    "Aquest Avís Legal es regeix per la legislació espanyola. Per a qualsevol controvèrsia que pogués derivar-se de l’accés o ús del web, les parts se sotmeten als jutjats i tribunals que corresponguin d’acord amb la normativa aplicable."
+                ],
+                close: "Tancar"
+            }
         }
     },
     es: {
@@ -190,7 +201,18 @@ export const translations = {
         },
         footer: {
             legal: ["Aviso Legal", "Privacidad", "Cookies", "Presskit"],
-            rights: "© 2026 VandeCul CINEMA STUDIO. TODOS LOS DERECHOS RESERVADOS."
+            rights: "© 2026 VandeCul CINEMA STUDIO. TODOS LOS DERECHOS RESERVADOS.",
+            legalModal: {
+                title: "AVISO LEGAL",
+                content: [
+                    "En cumplimiento del deber de información establecido por la normativa aplicable, se informa que el presente sitio web es titularidad de Marc Xicola con domicilio en C/ Calabria 164, NIF/52172995W, y correo electrónico de contacto VandeCul.produccions@gmail.com.",
+                    "El acceso y uso de este sitio web atribuyen la condición de persona usuaria, e implican la aceptación plena y sin reservas de las condiciones recogidas en este Aviso Legal. La persona usuaria se compromete a hacer un uso adecuado de los contenidos y servicios que el titular ofrece a través de la web y a no emplearlos para desarrollar actividades ilícitas o contrarias a la buena fe y al orden público.",
+                    "Todos los contenidos de este sitio web, incluyendo textos, imágenes, diseños, logotipos, archivos y cualquier otro material, están protegidos por los derechos de propiedad intelectual e industrial del titular o de terceros autorizados. Queda prohibida la reproducción, distribución, comunicación pública o transformación total o parcial sin la autorización previa y por escrito del titular.",
+                    "El titular no se hace responsable de los daños o perjuicios derivados del uso indebido del sitio web, ni de los contenidos de terceros a los que se pueda acceder mediante enlaces externos. Asimismo, se reserva el derecho de modificar en cualquier momento y sin aviso previo la información contenida en la web, así como su configuración o presentación.",
+                    "Este Aviso Legal se rige por la legislación española. Para cualquier controversia que pudiera derivarse del acceso o uso de la web, las partes se someten a los juzgados y tribunales que correspondan de acuerdo con la normativa aplicable."
+                ],
+                close: "Cerrar"
+            }
         }
     },
     en: {
@@ -286,7 +308,18 @@ export const translations = {
         },
         footer: {
             legal: ["Legal Notice", "Privacy", "Cookies", "Presskit"],
-            rights: "© 2026 VandeCul CINEMA STUDIO. ALL RIGHTS RESERVED."
+            rights: "© 2026 VandeCul CINEMA STUDIO. ALL RIGHTS RESERVED.",
+            legalModal: {
+                title: "LEGAL NOTICE",
+                content: [
+                    "In compliance with the information duty established by applicable regulations, we inform you that this website is owned by Marc Xicola, located at C/ Calabria 164, NIF/52172995W, with contact email VandeCul.produccions@gmail.com.",
+                    "Access to and use of this website grant you the status of user and imply full and unreserved acceptance of the conditions set out in this Legal Notice. The user agrees to make appropriate use of the content and services offered by the owner through the website and not to use them for activities that are illegal or contrary to good faith and public order.",
+                    "All content on this website, including texts, images, designs, logos, files, and any other material, is protected by the intellectual and industrial property rights of the owner or authorized third parties. Any reproduction, distribution, public communication, or total or partial transformation without the owner's prior written authorization is prohibited.",
+                    "The owner is not responsible for damages or losses resulting from the improper use of the website, nor for the content of third parties accessible through external links. Likewise, the owner reserves the right to modify the information on the website at any time and without prior notice, as well as its configuration or presentation.",
+                    "This Legal Notice is governed by Spanish law. For any controversy that may arise from access to or use of the website, the parties submit to the courts and tribunals that correspond according to the applicable regulations."
+                ],
+                close: "Close"
+            }
         }
     }
 };
