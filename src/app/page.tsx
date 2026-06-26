@@ -14,6 +14,7 @@ export default function Home() {
   const [isLegalModalOpen, setIsLegalModalOpen] = useState(false);
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
   const [isCookiesModalOpen, setIsCookiesModalOpen] = useState(false);
+  const [showCookieBanner, setShowCookieBanner] = useState(false);
 
   const t = translations[lang];
 
@@ -24,6 +25,14 @@ export default function Home() {
   };
 
   useEffect(() => {
+    // Check for cookie consent
+    if (typeof window !== "undefined") {
+      const consent = localStorage.getItem("cookieConsent");
+      if (!consent) {
+        setShowCookieBanner(true);
+      }
+    }
+
     const handleScroll = () => {
       const header = headerRef.current;
       if (header) {
@@ -708,6 +717,47 @@ export default function Home() {
                 className="bg-primary text-background px-6 py-3 font-label-technical text-[12px] uppercase hover:bg-technical-cyan transition-colors cursor-pointer"
               >
                 {t.footer.cookiesModal.close}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ═══════════════ COOKIE CONSENT BANNER ═══════════════ */}
+      {showCookieBanner && (
+        <div className="fixed bottom-0 left-0 right-0 z-[110] p-4 animate-slide-up">
+          <div className="max-w-7xl mx-auto bg-surface-container-highest border border-grid-line shadow-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 backdrop-blur-xl bg-background/90">
+            <div className="flex-1">
+              <p className="font-body-md text-on-surface-variant text-sm md:text-base leading-relaxed">
+                {t.footer.cookieBanner.message}
+              </p>
+              <button
+                onClick={() => {
+                  setIsCookiesModalOpen(true);
+                }}
+                className="text-primary hover:underline text-xs mt-2 underline-offset-4"
+              >
+                {t.footer.cookieBanner.moreInfo}
+              </button>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+              <button
+                onClick={() => {
+                  localStorage.setItem("cookieConsent", "basic");
+                  setShowCookieBanner(false);
+                }}
+                className="px-6 py-3 border border-grid-line font-label-technical text-[11px] uppercase hover:bg-surface-container transition-colors text-center w-full sm:w-auto"
+              >
+                {t.footer.cookieBanner.acceptBasic}
+              </button>
+              <button
+                onClick={() => {
+                  localStorage.setItem("cookieConsent", "all");
+                  setShowCookieBanner(false);
+                }}
+                className="px-6 py-3 bg-primary text-background font-label-technical text-[11px] uppercase hover:bg-technical-cyan transition-colors text-center w-full sm:w-auto"
+              >
+                {t.footer.cookieBanner.acceptAll}
               </button>
             </div>
           </div>

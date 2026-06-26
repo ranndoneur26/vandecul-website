@@ -131,6 +131,12 @@ export const translations = {
                     "4. Canvis en la política\nPodem actualitzar aquesta política per reflectir canvis en les cookies que utilitzem o per motius legals. Us recomanem que consulteu aquesta secció periòdicament."
                 ],
                 close: "Tancar"
+            },
+            cookieBanner: {
+                message: "Utilitzem cookies pròpies i de tercers per millorar l'experiència de l'usuari i analitzar el trànsit. Pots acceptar només les bàsiques o totes les cookies.",
+                acceptBasic: "Acceptar bàsiques",
+                acceptAll: "Acceptar totes",
+                moreInfo: "Més informació"
             }
         }
     },
@@ -264,6 +270,12 @@ export const translations = {
                     "4. Cambios en la política\nPodemos actualizar esta política para reflejar cambios en las cookies que utilizamos o por motivos legales. Le recomendamos que consulte esta sección periódicamente."
                 ],
                 close: "Cerrar"
+            },
+            cookieBanner: {
+                message: "Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario y analizar el tráfico. Puedes aceptar solo las básicas o todas las cookies.",
+                acceptBasic: "Aceptar básicas",
+                acceptAll: "Aceptar todas",
+                moreInfo: "Más información"
             }
         }
     },
@@ -397,6 +409,12 @@ export const translations = {
                     "4. Changes to policy\nWe may update this policy to reflect changes in the cookies we use or for legal reasons. We recommend checking this section periodically."
                 ],
                 close: "Close"
+            },
+            cookieBanner: {
+                message: "We use our own and third-party cookies to improve the user experience and analyze traffic. You can accept only the basic ones or all cookies.",
+                acceptBasic: "Accept basic",
+                acceptAll: "Accept all",
+                moreInfo: "More information"
             }
         }
     }
