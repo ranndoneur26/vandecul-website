@@ -250,39 +250,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ═══════════════ SERVEIS ═══════════════ */}
-        <section className="px-margin-page py-24 border-b border-grid-line" id="serveis">
-          <div className="max-w-4xl mb-20">
-            <span className="font-label-technical text-technical-cyan block mb-4">{t.serveis.header}</span>
-            <h2 className="font-headline-lg text-headline-lg">
-              {t.serveis.h2}
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 border-t border-l border-grid-line">
-            {t.serveis.cards.map((card, idx) => (
-              <div key={idx} className="border-r border-b border-grid-line p-10 group hover:bg-surface-container transition-colors duration-500 hover:opacity-50">
-                <div className="flex justify-between items-start mb-12">
-                  <span className="font-label-technical text-muted-gray">{`0${idx + 1}`}</span>
-                  <span className="material-symbols-outlined text-technical-cyan">
-                    {["videocam", "theater_comedy", "history_edu", "auto_awesome", "movie", "edit_note"][idx]}
-                  </span>
-                </div>
-                <h3 className="font-headline-lg text-[24px] mb-4 group-hover:text-technical-cyan transition-colors">{card.title}</h3>
-                <p className="font-body-md text-on-surface-variant text-sm">{card.desc}</p>
-              </div>
-            ))}
-          </div>
-          {/* CTA serveis */}
-          <div className="mt-16 flex flex-wrap gap-6 items-center">
-            <button
-              onClick={() => scrollTo("#contacte")}
-              className="bg-primary text-background px-8 py-4 font-headline-lg text-[16px] uppercase hover:bg-technical-cyan transition-colors cursor-pointer"
-            >
-              {t.serveis.cta}
-            </button>
-          </div>
-        </section>
-
         {/* ═══════════════ PROJECTES ═══════════════ */}
         <section className="py-24 border-b border-grid-line overflow-hidden" id="projectes">
           <div className="px-margin-page flex justify-between items-end mb-16">
@@ -335,6 +302,39 @@ export default function Home() {
             <button className="font-label-technical text-label-technical text-technical-cyan hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
               <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
               {t.projectes.ctaArchive}
+            </button>
+          </div>
+        </section>
+
+        {/* ═══════════════ SERVEIS ═══════════════ */}
+        <section className="px-margin-page py-24 border-b border-grid-line" id="serveis">
+          <div className="max-w-4xl mb-20">
+            <span className="font-label-technical text-technical-cyan block mb-4">{t.serveis.header}</span>
+            <h2 className="font-headline-lg text-headline-lg">
+              {t.serveis.h2}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 border-t border-l border-grid-line">
+            {t.serveis.cards.map((card, idx) => (
+              <div key={idx} className="border-r border-b border-grid-line p-10 group hover:bg-surface-container transition-colors duration-500 hover:opacity-50">
+                <div className="flex justify-between items-start mb-12">
+                  <span className="font-label-technical text-muted-gray">{`0${idx + 1}`}</span>
+                  <span className="material-symbols-outlined text-technical-cyan">
+                    {["videocam", "theater_comedy", "history_edu", "auto_awesome", "movie", "edit_note"][idx]}
+                  </span>
+                </div>
+                <h3 className="font-headline-lg text-[24px] mb-4 group-hover:text-technical-cyan transition-colors">{card.title}</h3>
+                <p className="font-body-md text-on-surface-variant text-sm">{card.desc}</p>
+              </div>
+            ))}
+          </div>
+          {/* CTA serveis */}
+          <div className="mt-16 flex flex-wrap gap-6 items-center">
+            <button
+              onClick={() => scrollTo("#contacte")}
+              className="bg-primary text-background px-8 py-4 font-headline-lg text-[16px] uppercase hover:bg-technical-cyan transition-colors cursor-pointer"
+            >
+              {t.serveis.cta}
             </button>
           </div>
         </section>
