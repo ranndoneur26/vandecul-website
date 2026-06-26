@@ -110,7 +110,7 @@ export const translations = {
                 title: "POLÍTICA DE PRIVACITAT",
                 content: [
                     "En compliment del Reglament (UE) 2016/679, de 27 d’abril de 2016, General de Protecció de Dades (RGPD), i de la Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals, s’informa de la present política de privacitat.",
-                    "1. Responsable del tractament\nResponsable: VandeCul\nNIF: 52172995W\nAdreça: C/ Calabria 164\nCorreu electrònic: vandecul.produccions@gmail.com\nLloc web: VandeCul.cat",
+                    "1. Responsable del tractament\nResponsable: Marc Xicola\nNIF: 52172995W\nAdreça: C/ Calabria 164\nCorreu electrònic: vandecul.produccions@gmail.com\nLloc web: VandeCul.cat",
                     "2. Finalitat del tractament\nLes dades personals recollides a través d’aquest lloc web seran tractades amb les finalitats següents:\n- Atendre consultes i sol·licituds rebudes mitjançant els formularis de contacte.\n- Gestionar la relació comercial o professional amb les persones usuàries.\n- Enviar comunicacions informatives o comercials, quan hi hagi consentiment previ.\n- Complir amb les obligacions legals aplicables.",
                     "3. Legitimació\nLa base legal per al tractament de les dades és:\n- El consentiment de la persona interessada.\n- L’execució d’un contracte o l’aplicació de mesures precontractuals.\n- El compliment d’obligacions legals.\n- L’interès legítim, quan sigui procedent.",
                     "4. Conservació de les dades\nLes dades es conservaran durant el temps necessari per complir la finalitat per a la qual van ser recollides i, posteriorment, durant els terminis legalment establerts. Un cop transcorreguts aquests terminis, es suprimiran amb mesures de seguretat adequades.",
@@ -118,6 +118,17 @@ export const translations = {
                     "6. Drets de les persones usuàries\nLa persona usuària pot exercir en qualsevol moment els drets d’accés, rectificació, supressió, oposició, limitació del tractament i portabilitat de les dades, així com retirar el consentiment atorgat, mitjançant escrit adreçat a vandecul.produccions@gmail.com, adjuntant còpia d’un document acreditatiu de la identitat.\nAixí mateix, si considera que el tractament de les seves dades no s’ajusta a la normativa, pot presentar una reclamació davant l’Autoritat Catalana de Protecció de Dades o davant l’Agència Espanyola de Protecció de Dades, segons correspongui.",
                     "7. Mesures de seguretat\nEl responsable del tractament adopta les mesures tècniques i organitzatives necessàries per garantir la seguretat, integritat i confidencialitat de les dades personals, i per evitar-ne la pèrdua, alteració o accés no autoritzat.",
                     "8. Canvis en la política de privacitat\nAquesta política de privacitat podrà ser actualitzada en qualsevol moment per adaptar-la a modificacions legals o tècniques. Es recomana revisar-la periòdicament."
+                ],
+                close: "Tancar"
+            },
+            cookiesModal: {
+                title: "POLÍTICA DE COOKIES",
+                content: [
+                    "Aquest lloc web utilitza cookies i tecnologies similars per garantir el funcionament tècnic del web, analitzar el trànsit i millorar l'experiència d'usuari.",
+                    "1. Què són les cookies?\nLes cookies són petits fitxers de text que s'emmagatzemen al vostre dispositiu quan visiteu un lloc web. S'utilitzen per reconèixer l'usuari, emmagatzemar preferències i oferir una navegació més eficient.",
+                    "2. Tipus de cookies que utilitzem\n- Cookies Essencials (Tècniques): Són necessàries per al funcionament bàsic del lloc web. No es poden desactivar.\n- Cookies de Preferències: Permeten recordar informació com l'idioma seleccionat.\n- Cookies d'Estadística: Ens ajuden a entendre com els visitants interactuen amb el web (per exemple, Google Analytics).",
+                    "3. Gestió de cookies\nPodeu configurar el vostre navegador per bloquejar o alertar sobre aquestes cookies, però algunes parts del lloc web no funcionaran. La majoria dels navegadors permeten gestionar les preferències de cookies a través dels seus ajustos.",
+                    "4. Canvis en la política\nPodem actualitzar aquesta política per reflectir canvis en les cookies que utilitzem o per motius legals. Us recomanem que consulteu aquesta secció periòdicament."
                 ],
                 close: "Tancar"
             }
@@ -232,7 +243,7 @@ export const translations = {
                 title: "POLÍTICA DE PRIVACIDAD",
                 content: [
                     "En cumplimiento del Reglamento (UE) 2016/679, de 27 de abril de 2016, General de Protección de Datos (RGPD), y de la Ley Orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales, se informa de la presente política de privacidad.",
-                    "1. Responsable del tratamiento\nResponsable: VandeCul\nNIF: 52172995W\nDirección: C/ Calabria 164\nCorreo electrónico: vandecul.produccions@gmail.com\nSitio web: VandeCul.cat",
+                    "1. Responsable del tratamiento\nResponsable: Marc Xicola\nNIF: 52172995W\nDirección: C/ Calabria 164\nCorreo electrónico: vandecul.produccions@gmail.com\nSitio web: VandeCul.cat",
                     "2. Finalidad del tratamiento\nLos datos personales recogidos a través de este sitio web serán tratados con las siguientes finalidades:\n- Atender consultas y solicitudes recibidas mediante los formularios de contacto.\n- Gestionar la relación comercial o profesional con las personas usuarias.\n- Enviar comunicaciones informativas o comerciales, cuando haya consentimiento previo.\n- Cumplir con las obligaciones legales aplicables.",
                     "3. Legitimación\nLa base legal para el tratamiento de los datos es:\n- El consentimiento de la persona interesada.\n- La ejecución de un contrato o la aplicación de medidas precontractuantes.\n- El cumplimiento de obligaciones legales.\n- El interés legítimo, cuando sea procedente.",
                     "4. Conservación de los datos\nLos datos se conservarán durante el tiempo necesario para cumplir la finalidad para la que fueron recogidos y, posteriormente, durante los plazos legalmente establecidos. Una vez transcurridos estos plazos, se suprimirán con medidas de seguridad adecuadas.",
@@ -240,6 +251,17 @@ export const translations = {
                     "6. Derechos de las personas usuarias\nLa persona usuaria puede ejercer en cualquier momento los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad de los datos, así como retirar el consentimiento otorgado, mediante escrito dirigido a vandecul.produccions@gmail.com, adjuntando copia de un documento acreditativo de la identidad.\nAsimismo, si considera que el tratamiento de sus datos no se ajusta a la normativa, puede presentar una reclamación ante la Autoridad Catalana de Protección de Datos o ante la Agencia Española de Protección de Datos, según corresponda.",
                     "7. Mecanismos de seguridad\nEl responsable del tratamiento adopta las medidas técnicas y organizativas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos personales, y para evitar su pérdida, alteración o acceso no autorizado.",
                     "8. Cambios en la política de privacidad\nEsta política de privacidad podrá ser actualizada en cualquier momento para adaptarla a modificaciones legales o técnicas. Se recomienda revisarla periódicamente."
+                ],
+                close: "Cerrar"
+            },
+            cookiesModal: {
+                title: "POLÍTICA DE COOKIES",
+                content: [
+                    "Este sitio web utiliza cookies y tecnologías similares para garantizar el funcionamiento técnico de la web, analizar el tráfico y mejorar la experiencia de usuario.",
+                    "1. ¿Qué son las cookies?\nLas cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Se utilizan para reconocer al usuario, almacenar preferencias y ofrecer una navegación más eficiente.",
+                    "2. Tipus de cookies que utilizamos\n- Cookies Esenciales (Técnicas): Son necesarias para el funcionamiento básico del sitio web. No se pueden desactivar.\n- Cookies de Preferencias: Permiten recordar información como el idioma seleccionado.\n- Cookies de Estadística: Nos ayudan a entender cómo los visitantes interactúan con la web (por ejemplo, Google Analytics).",
+                    "3. Gestión de cookies\nPuede configurar su navegador para bloquear o alertar sobre estas cookies, pero algunas partes del sitio web no funcionarán. La mayoría de los navegadores permiten gestionar las preferencias de cookies a través de sus ajustes.",
+                    "4. Cambios en la política\nPodemos actualizar esta política para reflejar cambios en las cookies que utilizamos o por motivos legales. Le recomendamos que consulte esta sección periódicamente."
                 ],
                 close: "Cerrar"
             }
@@ -354,7 +376,7 @@ export const translations = {
                 title: "PRIVACY POLICY",
                 content: [
                     "In compliance with Regulation (EU) 2016/679, of April 27, 2016, General Data Protection Regulation (GDPR), and Organic Law 3/2018, of December 5, on the protection of personal data and guarantee of digital rights, this privacy policy is provided.",
-                    "1. Data Controller\nResponsible: VandeCul\nTax ID: 52172995W\nAddress: C/ Calabria 164\nEmail: vandecul.produccions@gmail.com\nWebsite: VandeCul.cat",
+                    "1. Data Controller\nResponsible: Marc Xicola\nTax ID: 52172995W\nAddress: C/ Calabria 164\nEmail: vandecul.produccions@gmail.com\nWebsite: VandeCul.cat",
                     "2. Purpose of processing\nPersonal data collected through this website will be processed for the following purposes:\n- Addressing inquiries and requests received through contact forms.\n- Managing the commercial or professional relationship with users.\n- Sending informative or commercial communications, when prior consent has been given.\n- Complying with applicable legal obligations.",
                     "3. Legitimation\nThe legal basis for data processing is:\n- The consent of the data subject.\n- The execution of a contract or the application of pre-contractual measures.\n- Compliance with legal obligations.\n- Legitimate interest, where applicable.",
                     "4. Data retention\nData will be kept for the time necessary to fulfill the purpose for which it was collected and, subsequently, during the legally established periods. After these periods, it will be deleted with appropriate security measures.",
@@ -362,6 +384,17 @@ export const translations = {
                     "6. User rights\nThe user can exercise at any time the rights of access, rectification, deletion, opposition, limitation of processing, and data portability, as well as withdraw the consent granted, by writing to vandecul.produccions@gmail.com, attaching a copy of an identity document.\nLikewise, if you consider that the processing of your data does not comply with the regulations, you can file a complaint with the Catalan Data Protection Authority or the Spanish Data Protection Agency, as appropriate.",
                     "7. Security measures\nThe data controller adopts the necessary technical and organizational measures to guarantee the security, integrity, and confidentiality of personal data, and to prevent its loss, alteration, or unauthorized access.",
                     "8. Changes to the privacy policy\nThis privacy policy may be updated at any time to adapt it to legal or technical modifications. It is recommended to review it periodically."
+                ],
+                close: "Close"
+            },
+            cookiesModal: {
+                title: "COOKIES POLICY",
+                content: [
+                    "This website uses cookies and similar technologies to ensure the technical functioning of the site, analyze traffic, and improve the user experience.",
+                    "1. What are cookies?\nCookies are small text files stored on your device when you visit a website. They are used to recognize the user, store preferences, and provide more efficient navigation.",
+                    "2. Types of cookies we use\n- Essential Cookies (Technical): Necessary for the basic functioning of the website. They cannot be deactivated.\n- Preference Cookies: Allow the site to remember information like the selected language.\n- Statistics Cookies: Help us understand how visitors interact with the site (e.g., Google Analytics).",
+                    "3. Cookie management\nYou can configure your browser to block or alert you about these cookies, but some parts of the website may not work. Most browsers allow you to manage cookie preferences through their settings.",
+                    "4. Changes to policy\nWe may update this policy to reflect changes in the cookies we use or for legal reasons. We recommend checking this section periodically."
                 ],
                 close: "Close"
             }
