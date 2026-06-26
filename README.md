@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VandeCul — Cinema Studio Website
 
-## Getting Started
+Professional, high-performance website for VandeCul Cinema Studio. Featuring a multilingual architecture, SEO optimization, and a modern industrial aesthetic.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Multilingual Support**: Fully operational in Catalan (default), Spanish, and English.
+- **Dynamic SEO**: Automated metadata updates for titles, descriptions, and keywords based on the selected language.
+- **Modern UI**: Built with Next.js and Tailwind CSS, featuring grain overlays, glassmorphism, and smooth animations.
+- **Contact Integration**: Intelligent contact form with localized labels and automated email generation.
+- **Optimized for Discovery**: Structured for high visibility in search engines and AI-driven platforms.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: TypeScript
+- **Design Icons**: Google Material Symbols
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+### Deploy to Vercel (Recommended)
 
-To learn more about Next.js, take a look at the following resources:
+1. Push your changes to GitHub.
+2. Go to [Vercel](https://vercel.com/new).
+3. Import the `vandecul-website` repository.
+4. Click **Deploy**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Localization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Content is managed via `src/app/translations.ts`. To update any text, simply modify the corresponding key in the `translations` object for the desired language.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+© 2026 VandeCul Cinema Studio
